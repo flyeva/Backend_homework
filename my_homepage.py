@@ -21,12 +21,12 @@ def portfolio():
 
 @app.route("/projects/fakebook")
 def fakebook():
-    return render_template("index_fakebook.html")
+    return render_template("/projects/index_fakebook.html")
 
 
 @app.route("/projects/stran22")
 def stran22():
-    return render_template("index_stran22.html")
+    return render_template("/projects/index_stran22.html")
 
 
 if __name__ == "__main__":
