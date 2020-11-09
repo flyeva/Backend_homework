@@ -19,7 +19,7 @@ def portfolio():
     return render_template("portfolio.html")
 
 
-@app.route("projects/fakebook")
+@app.route("/projects/fakebook")
 def fakebook():
     return render_template("index_fakebook.html")
 
