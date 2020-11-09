@@ -1,0 +1,58 @@
+body {
+    width: 98%;
+    margin: auto;
+    font-family: IBM Plex Mono;
+    background-color: #e6e6e6;
+    }
+
+    /* Navbar */
+
+.nav-bg {
+    background-color: grey;
+    }
+
+.navbar-brand {
+    font-size: 30px;
+    }
+
+.nav-item {
+    margin-right: 20px;
+    }
+
+.mb-1 {
+  margin-left: ($spacer * .25) !important;
+  }
+
+  /* Main */
+
+.row {
+    justify-content: space-between;
+    margin-top: 20px;
+    }
+
+.btn {
+    border: none;
+    background-color: gray;
+    }
+
+.btn:hover {
+    background-color: #e6e6e6;
+    color: grey;
+    }
+
+.border {
+    padding: 15px;
+    }
+
+       /* Carousel */
+
+.d-block {
+    object-fit: cover;
+    height: 300px;
+    }
+
+
+
+
+
+

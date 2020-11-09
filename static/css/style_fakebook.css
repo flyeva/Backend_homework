@@ -1,0 +1,41 @@
+. { margin: 0;
+    padding: 0;
+}
+body {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #e0e0e0;
+}
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    font-size: 15px;
+    color: #a5a5a5;
+    letter-spacing: 8px;
+}
+h2 {
+    font-size: 40px
+    }
+
+p {
+    font-family: helvetica;
+    color: #333333;
+}
+.big {
+    color: #007a18;
+}
+button {
+    width: 100%;
+    border: none;
+    padding: 14px 20px;
+    color: black;
+    font-size: 14px;
+    transition-duration: 0.5s;
+ }
+ button:hover {
+    background-color: #007a18;
+    color: white;
+    }
